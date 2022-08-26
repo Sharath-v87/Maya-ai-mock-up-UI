@@ -48,20 +48,21 @@
         <form class="form-group">
             <div>
                 <label for="Name">Name</label>
-                <input id="Name" type="text" placeholder="Full name" class="form-control form-control-sm" size="30">
+                <input id="Name" type="text" placeholder="Full name" class="form-control form-control-sm" size="30" required>
             </div>
             <div>
                 <label for="mail">Email Id</label>
-                <input type="email" placeholder="@hdfc.com" class="form-control form-control-sm" id ="mail">
+                <input type="email" placeholder="@hdfc.com" class="form-control form-control-sm" id ="mail" required>
             </div>
             <div>
                 <label for="textreq">Reason for request</label>
-                <textarea id="textreq" class="form-control form-control-sm" name="reason">Brief your requirement and approval</textarea>
-            </div>
+                <textarea id="textreq" class="form-control form-control-sm" name="reason" required>Brief your requirement and approval</textarea>
+            </div><br>
+            <input type="submit" class="btn btn-primary" value="Submit" onclick="window.location.href='reqaccessdone.html'">
         </form><br><br><br>
         <input type="checkbox" id="copy">
         <label for="copy">Send me an email copy</label>
-        <a class="btn btn-primary" href="reqaccessdone.html" role="button">Submit</a><br>
+        <!-- <a class="btn btn-primary" href="reqaccessdone.html" role="button">Submit</a><br> -->
         <div class="copyri">
             <p class="copyp" style="font-size:10px;"><img src="Group 279.png" alt="crayon">  2020 All Rights Reserved by Crayon Data Pte Ltd and it’s registered trademark maya.ai</p>
         </div>

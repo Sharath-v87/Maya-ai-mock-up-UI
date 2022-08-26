@@ -101,15 +101,6 @@
     left:0;
     }
 
-    /* #user{
-      box-sizing: border-box;
-
-position: absolute;
-width: 396px;
-height: 52px;
-left: 994px;
-top: 338px;
-
-border: 1px solid #E9EBEF;
-border-radius: 4px;
-    } */
+.inddiv{
+    right: 100px;
+}

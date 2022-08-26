@@ -63,19 +63,21 @@
         <form>
             <div class="form-group">
                 <div class="col-xs-3">
-                    <input id = "user" class="form-control" type = "email" placeholder="Email ID">
+                    <input id = "user" class="form-control" type = "email" placeholder="Email ID" required>
                 </div><br>
                 <div class="col-xs-3">
-                    <input id = "pass" class="form-control" type="password" placeholder="Password" onblur="password()"><br>
+                    <input id = "pass" class="form-control" type="password" placeholder="Password" required><br>
                 </div>
+                <input type="submit" class="btn btn-primary" value="Sign in" onclick="password()">
             </div>
         </form>
-        <input type = "checkbox" id = "rem">
-        <label for="rem">Remember me</label>
-        <button class="btn btn-primary" type="button" onclick="password()">Sign in</button><br>
-
-        <a href="lostpass.html">Lost your password?</a><br>
-        <p>Not a member yet?<a href="reqaccess.html">Request access</a></p><br>
+        <div class="inddiv">
+            <input type = "checkbox" id = "rem">
+            <label for="rem">Remember me</label><br>
+            <!-- <button class="btn btn-primary" type="button" onclick="password()">Sign in</button><br> -->
+            <a href="lostpass.html">Lost your password?</a><br>
+            <p>Not a member yet?<a href="reqaccess.html">Request access</a></p><br>
+        </div>
         <div class="copyri">
             <p class="copyp" style="font-size:10px;"><img src="Group 279.png" alt="crayon">  2020 All Rights Reserved by Crayon Data Pte Ltd and it’s registered trademark maya.ai</p>
         </div>
